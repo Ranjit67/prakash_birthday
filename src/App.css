@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.brand-logo{
+  font-family: 'Dancing Script', cursive;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pril{
+  margin-top: 20%;
+  background-color: white;
 }
+body{
+ 
+  height: 100vh;
+ 
+ background: url("https://images.pexels.com/photos/36753/flower-purple-lical-blosso.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"); 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+ 
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1{
+  color: rgb(14, 230, 79);
+  text-shadow:  1px 0 10px rgb(26, 255, 255);
+}
+.hed{
   color: white;
+  text-shadow:  1px 0 10px rgb(204, 204, 204);
+  font-family: 'Dancing Script', cursive;
 }
 
-.App-link {
-  color: #61dafb;
+.box{
+  display:inline-block;
+  border-radius: 20px;
+  background-color: rgba(255,255,255,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  position: absolute;
+
+  
+
+  width: 70%;
+  height: 80%;
+}
+.welcome{
+
+  font-family: 'Dancing Script', cursive;
+  width: fit-content;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.ico i{ 
+  color: rgb(14, 230, 79);
+  text-shadow:  1px 0 10px rgb(26, 255, 255);
+  font-size: 50px;
+  position: relative;
+  animation: mymove 0.9s infinite;
+  animation-delay: 0.1s;
+ 
+/* padding-bottom: 30%; */
+
 }
+@keyframes mymove {
+  from {bottom: 0px;}
+  to {bottom: 50px;}
+}
+
+
+.buto a{
+  background:   rgb(50, 168, 66) !important;
+  color: blue !important;
+  box-shadow:1px 0 10px rgb(26, 255, 255) !important ;
+ margin-bottom: 0;
+ max-width: 540px;
+
+}
+
+
+
+
+
+.modal-content{
+
+background-color: #bd0045;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+border-radius: 20px;
+}
+
+.thank{
+  background: cross-fade("");
+}
+
+.topper{
+
+  position: abslout;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.toa{
+  font-family: 'Dancing Script', cursive;
+}
+.is{
+  margin-left: 1.5%;
+}
+
+
+.bcn{
+ 
+  margin-top: 40% !important;
+}
+.if{
+  color: red !important;
+}
+
+.hed{
+  opacity: 0;
+        display: inline-block;
+        animation: animate 2s linear forwards;
+}
+
+@keyframes animate{
+  0%{
+    opacity: 0;
+   
+    filter: blur(0);
+    color: rgba(255,255,255,.2);
+}
+100%{
+    opacity: 1;
+    
+    color: #ddd;
+}
+}
+
+.hed{animation-delay: 5s;}
+
+
+

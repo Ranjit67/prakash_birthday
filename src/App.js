@@ -1,26 +1,57 @@
 import React from 'react';
-import logo from './logo.svg';
+// import $ from "jquery";
+import {BrowserRouter,Route} from "react-router-dom";
+// import  "materialize-css";
+// import M from "react-materialize";
+import Birthday from "./componet/Birthday.js";
+
+import Trial from "./componet/Trial.js";
+import Botton from "./componet/resource/Botton.js"
 import './App.css';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+    <BrowserRouter>
+  
+<Route exact path="/">
+
+<Trial />
+
+</Route>
+<Route path="/birthday">
+
+<Birthday />
+
+</Route>
+
+
+
+<Route path="/botton">
+<header>
+<Botton />
+</header>
+</Route>
+
+
+
+</BrowserRouter>
+
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
