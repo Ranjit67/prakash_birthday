@@ -79,12 +79,7 @@ h1{
 
 
 
-.modal-content{
 
-background-color: #bd0045;
-background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
-border-radius: 20px;
-}
 
 .thank{
   background: cross-fade("");
@@ -99,6 +94,9 @@ border-radius: 20px;
 
 .toa{
   font-family: 'Dancing Script', cursive;
+  background-color: #bd0045;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+border-radius: 20px;
 }
 .is{
   margin-left: 1.5%;

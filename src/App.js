@@ -6,7 +6,7 @@ import {BrowserRouter,Route} from "react-router-dom";
 import Birthday from "./componet/Birthday.js";
 
 import Trial from "./componet/Trial.js";
-import Botton from "./componet/resource/Botton.js"
+import Countdown from "./componet/resource/Countdown.js"
 import './App.css';
 
 
@@ -30,13 +30,17 @@ function App() {
 
 
 
-<Route path="/botton">
+{/* <Route path="/botton">
 <header>
 <Botton />
 </header>
+</Route> */}
+
+<Route path="/count">
+
+<Countdown />
+
 </Route>
-
-
 
 </BrowserRouter>
 
