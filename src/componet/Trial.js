@@ -15,7 +15,7 @@ const userAgent = navigator.userAgent;
 const deviceer = deviceDetector.parse(userAgent);
 
 
-            fetch(process.env.API_URL || "http://localhost:5000/",{
+            fetch(process.env.API_URL || "http://localhost:5000/" || "https://dear-acc.herokuapp.com/",{
                 "method":"POST",
                 headers: {
                     'Accept': 'application/json',
