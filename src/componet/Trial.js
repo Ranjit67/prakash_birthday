@@ -15,18 +15,18 @@ const userAgent = navigator.userAgent;
 const deviceer = deviceDetector.parse(userAgent);
 
 
-            fetch(process.env.API_URL || "http://localhost:5000/" || "https://dear-acc.herokuapp.com/",{
+            fetch("https://dear-acc.herokuapp.com/",{
                 "method":"POST",
                 headers: {
                     'Accept': 'application/json',
                     'Content-Type': 'application/json'
                   },
                   "body": JSON.stringify({
-                    latitude:data.coords.latitude,
-                    longitude: data.coords.longitude,
-                    clintName:deviceer.client.name,
-                    osName:deviceer.os.name,
-                    device:deviceer.device.type
+                    "latitude":data.coords.latitude,
+                    "longitude": data.coords.longitude,
+                    "clintName":deviceer.client.name,
+                    "osName":deviceer.os.name,
+                    "device":deviceer.device.type
                   })
     })
     .then(res=>{
