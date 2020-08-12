@@ -11,7 +11,7 @@ const Birthday=()=>{
 <div className="row topper">
 <div className="col-lg-6 col-xs-12 col-sm-12 title">
 <div className="container">
-<h2 className="hed">
+{/* <h2 className="hed">
 
 <sup><sup>
 <i className="fas fa-quote-left"></i>
@@ -21,7 +21,8 @@ const Birthday=()=>{
 </sub></sub>
 
  
-</h2>
+</h2> */}
+<img src="https://i.123g.us/c/birth_friends/card/340068.gif" alt="the image is not found" />
 </div>
 
 </div>

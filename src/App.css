@@ -30,7 +30,7 @@ h1{
   font-family: 'Dancing Script', cursive;
 }
 
-.box{
+/* .box{
   display:inline-block;
   border-radius: 20px;
   background-color: rgba(255,255,255,.2);
@@ -41,7 +41,7 @@ h1{
 
   width: 70%;
   height: 80%;
-}
+} */
 .welcome{
 
   font-family: 'Dancing Script', cursive;
@@ -85,12 +85,12 @@ h1{
   background: cross-fade("");
 }
 
-.topper{
+/* .topper{
 
   position: abslout;
   width: 100%;
   margin-top: 10%;
-}
+} */
 
 .toa{
   font-family: 'Dancing Script', cursive;
@@ -135,3 +135,29 @@ border-radius: 20px;
 
 
 
+
+.box{
+  display:inline-block;
+  border-radius: 20px;
+  background-color: rgba(255,255,255,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  position: absolute;
+
+  
+
+  width: 70%;
+  height: 80%;
+}
+
+
+
+.topper{
+
+  /* position: abslout; */
+  width: 100%;
+  margin-top: 10%;
+}
+
+.title {
+  margin: 0;
+}

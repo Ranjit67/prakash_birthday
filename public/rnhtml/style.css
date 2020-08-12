@@ -46,6 +46,8 @@ body{
 
 .mass{
     font-family: 'Cedarville Cursive', cursive;
+    color: rgb(14, 230, 79);
+  text-shadow:  1px 0 10px rgb(26, 255, 255);
 }
 
 

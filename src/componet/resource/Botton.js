@@ -34,7 +34,8 @@ return(
   <div className="container">
 
 <div className="buto">
-<a className="waves-effect waves-light btn modal-trigger"  href={(triger)?"rnhtml/try.html":"/count" }>Tap Here</a></div>
+{/* <a className="waves-effect waves-light btn modal-trigger"  href={(triger)?"rnhtml/try.html":"/count" }>Tap Here</a></div> */}
+<a className="waves-effect waves-light btn modal-trigger"  href={"rnhtml/try.html"}>Tap Here</a></div>
 
   </div>
 )
