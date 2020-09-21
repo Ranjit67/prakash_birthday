@@ -1,54 +1,33 @@
-import React from 'react';
-// import $ from "jquery";
-import {BrowserRouter,Route} from "react-router-dom";
-// import  "materialize-css";
-// import M from "react-materialize";
-import Birthday from "./componet/Birthday.js";
+import React, {Component} from 'react';
+import Navbar from "./componet/resource/Navbar";
+import Inner from "./componet/resource/Inner";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
 
-import Trial from "./componet/Trial.js";
-import Countdown from "./componet/resource/Countdown.js"
-import './App.css';
+class App extends Component{
+  render(){
+    return(
+     
+      <div className="row">
+        <div className="col-md-12"> <Navbar /></div>
+        
+       
 
+          <div className=" col-offset-md-1 col-md-10 hap">
+          
+          <img className="col-md-12 imo" src="https://res.cloudinary.com/dnrnwqpel/image/upload/v1600675194/rosy_nana/Pink_and_Violet_Cupcake_Birthday_Picture_Postcard_swsnsu.jpg"
+           alt="Paris" />
+          </div>
 
+         <Inner />
 
+           
 
-function App() {
-  return (
-   
-    <BrowserRouter>
-  
-<Route exact path="/">
-
-<Trial />
-
-</Route>
-<Route path="/birthday">
-
-<Birthday />
-
-</Route>
-
-
-
-{/* <Route path="/botton">
-<header>
-<Botton />
-</header>
-</Route> */}
-
-<Route path="/count">
-
-<Countdown />
-
-</Route>
-
-</BrowserRouter>
-
-  );
+        </div>
+    )
+  }
 }
-
 export default App;
-
 
 
 
