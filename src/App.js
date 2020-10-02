@@ -15,7 +15,7 @@ class App extends Component{
 
           <div className=" col-offset-md-1 col-md-10 hap">
           
-          <img className="col-md-12 imo" src="https://res.cloudinary.com/dnrnwqpel/image/upload/v1600675194/rosy_nana/Pink_and_Violet_Cupcake_Birthday_Picture_Postcard_swsnsu.jpg"
+          <img className="col-md-12 imo" src="https://res.cloudinary.com/dnrnwqpel/image/upload/v1601628625/rosy_nana/Pink_and_Violet_Cupcake_Birthday_Picture_Postcard_1_fy4jj5.jpg"
            alt="Paris" />
           </div>
 

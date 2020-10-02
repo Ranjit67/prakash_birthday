@@ -30,11 +30,11 @@ class Inner extends Component {
   state = {
     items: [
         {id: 1, title:"https://www.birthdaywishes.expert/wp-content/uploads/2015/11/cover-photo-for-happy-birthday-messages.jpg"},
-      {id: 2, title: 'https://scontent.fbbi3-1.fna.fbcdn.net/v/t1.0-9/53165212_622927511468970_2545782022924664832_n.jpg?_nc_cat=102&_nc_sid=110474&_nc_ohc=SkveLyrGcIcAX91Trdd&_nc_ht=scontent.fbbi3-1.fna&oh=37bf240965a9f854f401c6f5f13d3acc&oe=5F8CEFFE'},
-      {id: 3, title: 'https://scontent.fbbi3-1.fna.fbcdn.net/v/t1.0-9/47680461_570942786667443_3038592871184728064_n.jpg?_nc_cat=104&_nc_sid=0be424&_nc_ohc=0VUBXMT6wuoAX_P7duw&_nc_ht=scontent.fbbi3-1.fna&oh=f369872f74bd8a5c7ea97fe815fa2fe1&oe=5F8EBEA8'},
-      {id: 4, title: 'https://scontent.fbbi3-1.fna.fbcdn.net/v/t1.0-9/38446567_496738054087917_2652012537138118656_n.jpg?_nc_cat=104&_nc_sid=05277f&_nc_ohc=K53bhSysCBwAX8rzYL9&_nc_ht=scontent.fbbi3-1.fna&oh=1dbfaa72787e890ace4e4831e868a2b2&oe=5F8E63FC'},
-      {id: 5, title: 'https://scontent.fbbi3-1.fna.fbcdn.net/v/t1.0-9/42366713_531274463967609_4975379150358446080_n.jpg?_nc_cat=107&_nc_sid=7aed08&_nc_ohc=1bGmh6hWovcAX8Dkx0g&_nc_ht=scontent.fbbi3-1.fna&oh=184f6c1bbe4a5e25f091f4375f79e76a&oe=5F8C5E0E'},
-      {id: 6, title: 'https://scontent.fbbi3-1.fna.fbcdn.net/v/t31.0-8/s960x960/13582101_133552210406505_8941049242562205228_o.jpg?_nc_cat=101&_nc_sid=7aed08&_nc_ohc=kA7j5kXqctwAX8gE-ax&_nc_ht=scontent.fbbi3-1.fna&tp=7&oh=eff19250a4e8578ea4f870e5c504fc35&oe=5F8F09C7'}
+      {id: 2, title: 'https://scontent.fbbi3-1.fna.fbcdn.net/v/t1.0-9/s960x960/87835948_1484982115006187_8585581462256877568_o.jpg?_nc_cat=102&_nc_sid=05277f&_nc_ohc=0udvjdEeyM8AX_vaBSf&_nc_ht=scontent.fbbi3-1.fna&tp=7&oh=3561691269899290a62c32c7bde30c02&oe=5F9B2049'},
+      {id: 3, title: 'https://scontent.fbbi3-1.fna.fbcdn.net/v/t1.0-9/s960x960/62557220_1264430973727970_4596276246999990272_o.jpg?_nc_cat=107&_nc_sid=05277f&_nc_ohc=_oj0AuzzjBMAX-gQ2sU&_nc_ht=scontent.fbbi3-1.fna&tp=7&oh=a70b9a9f96ecac7026ed0b35d8071e90&oe=5F9E0AC6'},
+      {id: 4, title: 'https://res.cloudinary.com/dnrnwqpel/image/upload/v1601631057/rosy_nana/Untitled_design_gp6h5z.jpg'},
+      {id: 5, title: 'https://scontent.fbbi3-1.fna.fbcdn.net/v/t1.0-9/p720x720/52840217_1188709881300080_5469543733655502848_o.jpg?_nc_cat=101&_nc_sid=7aed08&_nc_ohc=6k8iD0vLiO4AX8SnAoY&_nc_ht=scontent.fbbi3-1.fna&tp=6&oh=6914df5e10f6bccf3608971e8874ba15&oe=5F9D051B'},
+      {id: 6, title: 'https://scontent.fbbi3-1.fna.fbcdn.net/v/t1.0-9/s960x960/51398916_1170871023083966_5167130628168089600_o.jpg?_nc_cat=109&_nc_sid=7aed08&_nc_ohc=A4P4zvcBErcAX93YKJT&_nc_ht=scontent.fbbi3-1.fna&tp=7&oh=3423b95721ec8e752734609f75462d84&oe=5F9D9A2C'}
     ]
   }
  
